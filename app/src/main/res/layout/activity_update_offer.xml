@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".updateOffer">
+
+    <TextView
+        android:id="@+id/updateanddeleteoffers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2A45D8"
+        android:text="Update And Delete Offers"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/offername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Offer Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:background="@drawable/search"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/startandenddte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Start And End Date"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/disco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Discount"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/prvsprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Previous Price"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/curentprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Current Price"
+        android:inputType="numberDecimal"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ofertype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offer Type"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/birthdyoff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Birthday Offer"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/anniversryoff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anniversary Offer"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="428dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/update"
+            android:text="Update"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="428dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/delete"
+            android:text="Delete"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/_6ffe8ed1346d2f2a088a37a4cd45b44" />
+    </RadioGroup>
+
+</LinearLayout>

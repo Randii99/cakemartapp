@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".offers">
+
+<TextView
+    android:id="@+id/offe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2A45D8"
+    android:text="Add Offers"
+    android:textAlignment="center"
+    android:textColor="#FDFDFD"
+    android:textSize="40sp" />
+
+<EditText
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Offer Name"
+    android:inputType="textPersonName" />
+
+<EditText
+    android:id="@+id/startandenddate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Start And End Date"
+    android:inputType="textPersonName" />
+
+<EditText
+    android:id="@+id/discount"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Discount"
+    android:inputType="textPersonName" />
+
+<EditText
+    android:id="@+id/previousprice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Previous Price"
+    android:inputType="numberDecimal" />
+
+<EditText
+    android:id="@+id/currntpric"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Current Price"
+    android:inputType="numberDecimal" />
+
+<TextView
+    android:id="@+id/offertype"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Offer Type"
+    android:textSize="20sp" />
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RadioButton
+        android:id="@+id/birthdayoffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birthday Offer"
+        android:textSize="18sp" />
+
+    <RadioButton
+        android:id="@+id/anniversaryoffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anniversary Offer"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/addoffer"
+        android:text="Add Offer"
+        android:textColor="#F8F8F8"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="314dp"
+        app:srcCompat="@drawable/fun_cakes_20190424_ruby_chocolate_cake_002" />
+
+</RadioGroup>
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="TextView" />
+
+</LinearLayout>
